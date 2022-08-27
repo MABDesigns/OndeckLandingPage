@@ -31,13 +31,30 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav">
       <li class="nav-item">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a id="product-menu"class="nav-link" href="#">
             Products
           </a>
+          <ul class="dropdownie">
+            <li><div><img id="spense" src="Assets/Spense_icon.svg" alt="" srcset=""></div>
+                <div><h4>Spense</h4>
+                     <p>Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+                </div>
+            </li>
+            <li><div><img id="fiber" src="Assets/Fiber_icon.svg" alt="" srcset=""></div>
+                <div><h4>Fiber Landing Page</h4>
+                     <p>An online portfolio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
+                </div>
+            </li>
+            <li><div><img  id="gradle" src="Assets/Gradie_icon.svg" alt="" srcset=""></div>
+                <div><h4>Gradie Sign Up Page</h4>
+                     <p>Gradie is a simple sign up page, great to practice centering layouts.</p>
+                </div>
+            </li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Challenges</a>
-        </li>
+        </li> 
         <li class="nav-item">
           <a class="nav-link" href="#">Resources</a>
         </li>
@@ -198,6 +215,7 @@
     </div>
 </div>
 <!--Bootstrap js --->
+<script src="src/js/nav.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
